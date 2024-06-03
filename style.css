@@ -1,0 +1,94 @@
+
+body {
+    background-color: #d5b895; /*Fondo */
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*----Nav bar-----*/
+
+.nav-item{
+    font-size: 30px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+
+.bg-custom {
+    background-color: #d5b895;
+}
+.btn-custom {
+    background-color:  #8e6027; 
+    border-color: #d5b895; 
+    color: #ffffff; /* texto */
+    font-size: 25px;
+    padding: 8px 11px;
+}
+
+.btn-custom:hover{
+    background-color: #80572b;
+    border-color: #d5b895;
+}
+
+.form-control {
+    background-color: #d5b895; 
+    color: #ffffff; /*texto */
+    border-color: #8e6027;
+}
+
+
+/*-----------------CSS crear PLATILLO-------------------*/
+#nombre, #descripcion, #precio, #categoria, #ingredientes, #imagen {
+    background-color: #8e6027;
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 30px;
+}
+
+label{
+    color:#ffffff;
+    font-size: 19px;
+}
+
+
+/*-----------------CSS for boton de búsqueda -------------------*/
+
+/* Cambia el color de fondo del botón de búsqueda */
+.btn-outline-success {
+    background-color: #8e6027; 
+    border-color: #8e6027; 
+    color: #ffffff; /*texto */
+    font-size: 20px;
+    padding: 7px 14px;
+}
+
+
+.btn-outline-success:focus,
+.btn-outline-success:active,
+.btn-outline-success:hover {
+    background-color: #80572b;
+    color: #ffffff;
+    border-color: #80572b;
+
+}
+/* Evitar que se apliquen estilos de enlace activo o visitado a la barra de búsqueda */
+.form-control:focus,
+.form-control:active,
+.form-control:visited {
+    background-color: #cd9d6b;
+    color: #ffffff; /*texto */
+    border-color:#d2b4de ;
+}
+
+
+.card{
+    background-color: #2d251d;
+}
+
